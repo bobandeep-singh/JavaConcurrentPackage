@@ -20,7 +20,7 @@ Also notice, that in case you obtain an Iterator from a PriorityBlockingQueue,
 the Iterator does not guarantee to iterate the elements in priority order.
  */
 
-public class ProducerConsumerPriorityBlockingQueue {
+public class WorkingWithPriorityBlockingQueue {
 	public static void main(String[] args) {
 		Employee emp1 = new Employee("A", 1, "AB");
 		Employee emp2 = new Employee("B", 2, "BC");
